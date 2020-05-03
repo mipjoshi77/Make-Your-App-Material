@@ -4,24 +4,24 @@
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/article_list_items_cardview_margin"
     android:clickable="true"
+    android:elevation="@dimen/list_item_material_card_view_elevation"
     android:focusable="true"
     android:foreground="?selectableItemBackground"
-    android:elevation="@dimen/list_item_material_card_view_elevation"
     app:cardCornerRadius="8dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="#625F5F">
+        android:background="#625F5F"
+        android:orientation="vertical">
 
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:scaleType="centerCrop"
-            android:background="@color/photo_placeholder" />
+            android:background="@color/photo_placeholder"
+            android:scaleType="centerCrop" />
 
         <TextView
             android:id="@+id/article_title"
