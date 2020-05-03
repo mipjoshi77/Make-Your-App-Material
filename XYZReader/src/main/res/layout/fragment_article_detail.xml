@@ -7,7 +7,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/fragment_detail_app_bar"
         android:layout_width="match_parent"
-        android:layout_height="320dp"
+        android:layout_height="@dimen/fragment_detail_app_bar_layout_height"
         android:elevation="@dimen/fragment_detail_app_bar_elevation">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
@@ -80,11 +80,11 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/article_body"
+                android:id="@+id/article_body_text"
                 style="?android:attr/textAppearanceMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_margin="@dimen/fragment_detail_article_body_text_layout_margin"
                 android:autoLink="web"
                 android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
                 android:linksClickable="true"
@@ -104,14 +104,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/fragment_detail_fab_layout_margin"
         android:background="@drawable/add_fab_background"
         android:clickable="true"
         android:contentDescription="@string/action_share"
         android:src="@drawable/ic_share"
-        app:elevation="@dimen/fab_elevation"
+        app:elevation="@dimen/fragment_detail_fab_elevation"
         app:fabSize="normal"
-        app:pressedTranslationZ="6dp"
+        app:pressedTranslationZ="@dimen/fragment_detail_fab_press_translation_z"
         android:focusable="true" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
