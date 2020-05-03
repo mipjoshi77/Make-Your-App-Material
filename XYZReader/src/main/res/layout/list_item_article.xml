@@ -2,12 +2,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/article_list_items_cardview_margin"
+    android:layout_margin="@dimen/list_item_material_card_view_margin"
     android:clickable="true"
     android:elevation="@dimen/list_item_material_card_view_elevation"
     android:focusable="true"
     android:foreground="?selectableItemBackground"
-    app:cardCornerRadius="8dp">
+    app:cardCornerRadius="@dimen/list_item_material_card_view_corner_radius">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,11 +30,13 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="4"
-            android:paddingLeft="16dp"
-            android:paddingTop="16dp"
-            android:paddingRight="16dp"
-            android:paddingBottom="4dp"
-            android:textColor="@color/ltgray" />
+            android:paddingLeft="@dimen/list_item_article_title_padding_left"
+            android:paddingRight="@dimen/list_item_article_title_padding_right"
+            android:paddingTop="@dimen/list_item_article_title_padding_top"
+            android:paddingBottom="@dimen/list_item_article_title_padding_bottom"
+            android:textColor="@color/ltgray"
+            android:paddingEnd="@dimen/list_item_article_title_padding_right"
+            android:paddingStart="@dimen/list_item_article_title_padding_left" />
 
         <TextView
             android:id="@+id/article_subtitle"
@@ -43,10 +45,12 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="2"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:paddingBottom="16dp"
-            android:textColor="@color/ltgray" />
+            android:paddingLeft="@dimen/list_item_article_sub_title_padding_left"
+            android:paddingRight="@dimen/list_item_article_sub_title_padding_right"
+            android:paddingBottom="@dimen/list_item_article_sub_title_padding_bottom"
+            android:textColor="@color/ltgray"
+            android:paddingStart="@dimen/list_item_article_sub_title_padding_left"
+            android:paddingEnd="@dimen/list_item_article_sub_title_padding_right" />
     </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>
