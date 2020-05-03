@@ -6,6 +6,7 @@
     android:clickable="true"
     android:focusable="true"
     android:foreground="?selectableItemBackground"
+    android:elevation="@dimen/list_item_material_card_view_elevation"
     app:cardCornerRadius="8dp">
 
     <LinearLayout

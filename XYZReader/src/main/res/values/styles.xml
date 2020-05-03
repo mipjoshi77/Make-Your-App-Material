@@ -29,6 +29,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
         <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
 <!--        <item name="colorPrimaryDark">#0F0F10</item>-->
 <!--        <item name="colorAccent">#6E7170</item>-->
     </style>
