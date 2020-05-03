@@ -25,3 +25,9 @@ Through this project, you will:
 1. This app was designed keeping in mind the dark theme feature available and makes use of Material dark theme system.
 2. In order to check out the dark theme and color palette utilized and for the App to feel more expressive and less strain on eyes, please test on Android emulator running API level 29+
 3. You can switch to Dark theme by going into Settings -> Display -> Dark theme (toggle button)
+
+### Snapshots:
+
+<img src="app-screenshots/Screenshot_1.png" width=250>  <img src="app-screenshots/Screenshot_2.png" width=250> <img src="app-screenshots/Screenshot_3.png" width=250>
+
+<img src="app-screenshots/Screenshot_4.png" width=400>  <img src="app-screenshots/Screenshot_5.png" width=400>
